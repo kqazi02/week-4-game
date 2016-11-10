@@ -1,0 +1,71 @@
+header {
+	width: 100%;
+	height: 55px;
+	background: #114B84;
+	color: #ffffff;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+h1 {
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.container {
+
+	width: 85%;
+	margin: 20px auto;
+	border: 5px ridge #E29962;
+
+}
+
+#instructions, #gamePlay {
+
+	margin: 20px;
+	width: 90%;
+	margin: 10px auto;
+}
+
+button {
+	width: 20%;
+	height: auto;
+}
+
+.buttonImage {
+
+	width: 100%;
+	height: auto;
+}
+
+#buttons {
+	clear: both;
+	margin: 10px 0;
+}
+
+#randNum, #winsLosses {
+	
+	width: 48%;
+	border: 2px solid black;
+	height: 150px;
+}
+
+#randNum {
+	float: left;
+}
+
+#winsLosses {
+	float: right;
+
+}
+
+#scoreHeading, #totalScore {
+	width: 100%;
+	border: 2px solid black;
+	margin: 10px 0;
+}
+
+#totalScore {
+	height: 150px;
+}
