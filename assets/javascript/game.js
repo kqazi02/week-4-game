@@ -37,7 +37,7 @@ $(document).ready(function(){
 
 		function display(){
 
-			$("#randNum").html(randNum);
+			$("#number").html(randNum);
 			$("#winsLosses").html("<p>Wins: " + wins + "</p><br>"
 				+ "<p>Losses: " + losses + "</p>");
 			$("#totalScore").html(totalScore);
@@ -56,14 +56,15 @@ $(document).ready(function(){
 			
 		}
 
-		reset();
-
-		display();
 
 
 	//===================================
 		
 	//Code game play below
+		reset();
+
+		display();
+		
 		$("#diamond").on("click", function(){
 			var diamondValue = buttonValues[0];
 			totalScore += diamondValue;

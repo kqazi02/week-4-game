@@ -4,6 +4,7 @@
 	<head>
 		<title>Crystals Collector</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link href="https://fonts.googleapis.com/css?family=Ravi+Prakash" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="assets/javascript/game.js"></script>
@@ -21,27 +22,29 @@
 				<p> The goal of the game is to match the randomly generated number, by clicking on one of the crystals</p>
 				<p> Each crystal has a random value between 1 &amp; 12. When you click on the button, the value associated with that button will be added to your total score</p>
 				<p> If your total score exceeds the displayed number, you lose.</p>
-				<p> Match the displayed number and . . . </p>
-				<p id = "master"> BECOME THE MASTER CRYSTAL COLLECTOR</p> 
+				<p> Match the displayed number and become <span id = "master">THE MASTER CRYSTAL COLLECTOR</span> </p>
+				 
 			</section>
 			
 			<!--division for the game content-->
 			<div id = "gamePlay" >
 				<!-- section for displaying the random number -->
-				<section id = "randNum">
-				<!-- random number goes here -->
-				</section> <!-- random number display section ends here -->
+				<div id = "wrapper"> <!-- this div serves the sole purpose of pushing the buttons down-->
+					<section id = "randNum">
+						<p id="number"><!-- random number goes here --></p>
+					</section> <!-- random number display section ends here -->
 
-				<!-- section for displaying wins and losses -->
-				<section id = "winsLosses">
-				<!--Wins and losses go here -->
-				</section> <!-- section for wins/losses ends here -->
+					<!-- section for displaying wins and losses -->
+					<section id = "winsLosses">
+					<!--Wins and losses go here -->
+					</section> <!-- section for wins/losses ends here -->
+				</div>
 
 				<!-- section for displaying buttons -->
 				<section id = "buttons">
 					<button><img id = "diamond" class = "buttonImage" src="assets/images/blueDiamond.jpg"></button>
-					<button><img id = "diaspore" class = "buttonImage" src="assets/images/greenDiaspore.jpg"></button>
-					<button><img id = "sapphire" class = "buttonImage" src="assets/images/pinkSapphire.jpg"></button>
+					<button class = "middleButton"><img id = "diaspore" class = "buttonImage" src="assets/images/greenDiaspore.jpg"></button>
+					<button class = "middleButton"><img id = "sapphire" class = "buttonImage" src="assets/images/pinkSapphire.jpg"></button>
 					<button><img id = "gem" class = "buttonImage" src="assets/images/purpleGem.jpeg"></button>
 				</section> <!-- section for displaying buttons ends here -->
 				
