@@ -1,5 +1,6 @@
 body{
 	font-family: "Ravi Prakash", cursive;
+	color: #bc4800;
 }
 
 header {
@@ -60,7 +61,7 @@ button:first-child {
 #randNum, #winsLosses {
 	
 	width: 48%;
-	border: 2px solid black;
+	border: 2px groove #114B84;
 	height: 150px;
 }
 
@@ -78,13 +79,14 @@ button:first-child {
 
 #scoreHeading, #totalScore {
 	width: 100%;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	margin: 10px 0;
+	text-align: center;
 }
 
 #totalScore {
 	height: 150px;
-	font-size: 60px;
+	font-size: 90px;
 }
 
 #number{
